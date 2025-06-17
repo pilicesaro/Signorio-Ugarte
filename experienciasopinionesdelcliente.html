@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESTUDIO JURÍDICO INTEGRAL SIGNORIO & UGARTE | INICIO</title>
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="logo_htmlsignoriougarte">
+      <img src="imagenes/logo_htmlsignoriougarte.png" alt="Logo">
+    </div>
+  
+    <!-- Menú hamburguesa con checkbox -->
+    <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+    <label for="menu-checkbox" class="menu-toggle">☰</label>
+  
+    <!-- Menú de navegación -->
+    <nav class="nav-links">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreelestudio.html">Sobre el Estudio</a></li>
+            <li><a href="areasdepracticaespecialidades.html">Áreas de Práctica</a></li>
+            <li><a href="experienciasopinionesdelcliente.html">Opiniones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="seccion-texto">
+      <h2 class="titulo-seccion">Experiencias y Opiniones</h2>
+      <div class="opiniones">
+        <div class="opinion">
+          <p>“Excelente atención y profesionalismo. Me sentí acompañada durante todo el proceso judicial.”</p>
+          <p><strong>- Carla G.</strong></p>
+        </div>
+        <div class="opinion">
+          <p>“Muy cálidas y humanas. Me brindaron claridad y tranquilidad en un momento difícil.”</p>
+          <p><strong>- José M.</strong></p>
+        </div>
+        <div class="opinion">
+          <p>“Atención rápida, cordial y eficaz. Se nota la experiencia y la pasión con la que trabajan.”</p>
+          <p><strong>- Mariana T.</strong></p>
+        </div>
+
+        <div class="imagen-mujer verificacion">
+          <img src="imagenes/mujerverificacion.jpg" alt="mujer verificacion">
+        </div>
+      </div>
+    </section>
+
+    <section class="foro-noticias-container">
+      <h1 class="titulo-seccion">Mitos y Realidades de la Cuota Alimentaria</h1>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “La cuota alimentaria debe utilizarse sólo para la compra de alimentos”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> El art. 541 del CCCN establece que la obligación alimentaria incluye vestimenta, alimentación, recreación, educación, asistencia médica, vivienda y gastos necesarios para adquirir una profesión u oficio.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “Si cada progenitor pasa igual de tiempo con sus hijos/as, no se abona alimentos”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> El art. 666 del CCCN establece que si los recursos de los progenitores no son equivalentes, aquel con mayores ingresos debe pasar una cuota alimentaria al otro para garantizar el mismo nivel de vida en ambos hogares.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “La cuota alimentaria se establece en el 20%, 25% y 35%...”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> No existe un monto fijo para la cuota alimentaria. Las necesidades de los niños y la capacidad económica de los progenitores varían en cada caso. El art. 658 del CCCN establece que ambos progenitores tienen la obligación de alimentar y educar a sus hijos conforme a su condición y fortuna.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “Si se fija un monto de cuota alimentaria este queda definitivo”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> La cuota alimentaria no es estática. Se ajusta según el crecimiento, las necesidades de los niños y el ingreso del alimentante, considerando el salario mínimo vital y móvil y el Índice de Crianza.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “Solo hasta la mayoría de edad se deben alimentos”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> La obligación alimentaria rige desde el nacimiento hasta los 21 años, salvo que el hijo mayor de 18 años tenga recursos suficientes. Puede extenderse hasta los 25 años si el hijo cursa estudios y no puede sostenerse económicamente.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h2 class="noticia-titulo">Mito: “Si no cuenta con trabajo registrado no tengo posibilidad de acceder a la cuota alimentaria”</h2>
+        <p class="noticia-descripcion">
+          <strong>Realidad:</strong> Si el alimentante no tiene empleo registrado, la cuota se fija en base al salario mínimo vital y móvil o al Índice de Crianza.
+        </p>
+      </article>
+    </section>
+
+    <section class="encuesta">
+      <h2 class="titulo-seccion">Dejanos tu opinión</h2>
+      <form class="form-encuesta" action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+        <label for="calificacion">Calificación del servicio:</label>
+        <select id="calificacion" name="calificacion" required>
+          <option value="">Seleccionar</option>
+          <option value="5">Excelente</option>
+          <option value="4">Muy bueno</option>
+          <option value="3">Bueno</option>
+          <option value="2">Regular</option>
+          <option value="1">Malo</option>
+        </select>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" placeholder="Tu experiencia..." required></textarea>
+
+        <button type="submit">ENVIAR OPINIÓN</button>
+      </form>
+    </section>
+
+    <a href="#menu" class="floating-up">
+      <img src="imagenes/flechahaciaarriba.png" alt="Flecha hacia arriba" class="flecha-arriba">
+  </a>
+
+  <a href="https://wa.me/542215464913?text=Hola,%20quer%C3%ADa%20consultar%20mi%20caso!" class="floating-whatsapp">
+      <img src="imagenes/whatsapp.png" alt="WhatsApp" class="whatsaap">
+  </a>
+</main>
+
+    </a>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-titulo">¿Quiénes somos?</p>
+    <p>Una firma integrada por dos abogadas mujeres especializadas en derecho de familia y abocadas a la realización de un derecho integral.</p>
+    <p>Creada en agosto de 2016 en la ciudad de La Plata, Buenos Aires, Argentina. Nuestro objetivo es brindar asesoramiento legal y acompañamiento cercano.</p>
+
+    <p>Encontranos también:</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/16KTn76dVp/?mibextid=wwXIfr">
+        <img src="imagenes/logofacebook.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/signoriougarteestudiojuridico?igsh=ZmMwcG42cHljOGoz">
+        <img src="imagenes/logoinstagram.png" alt="Instagram">
+      </a>
+      <a href="https://wa.me/542215464913?text=Hola,%20quer%C3%ADa%20consultar%20mi%20caso!">
+        <img src="imagenes/logo whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+
+    <p>© Estudio Jurídico Integral Signorio & Ugarte | Todos los derechos reservados</p>
+    <p>Contacto: signoriougarte@hotmail.com | Tel: +54 221 546-4913</p>
+  </footer>
+</body>
+
+</html>
